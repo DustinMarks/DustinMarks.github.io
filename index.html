@@ -1,203 +1,204 @@
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <style type="text/css">
-        @page {
-            size: letter;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            color:#111;
-            background-color: #222;
-            font-family: "Arial Narrow", "Calibri"; 
-            font-weight: lighter;
-            font-size: 24px; 
-            text-align: center;
-            letter-spacing: 0.04em;
-        }
-
-        h1 {
-            font-size: 30pt;
-        }
-        
-        h2 {
-            margin-top: 5px;
-            margin-bottom: 5px;
-            font-size: 11pt;
-        }
-
-        hr {
-            width: 80%;
-            height: 1.5px;
-            margin-left: auto;
-            margin-right: auto;
-            background-color:#FFF;
-            border: 0 none;
-            margin-top: 20px;
-            margin-bottom:20px;
-
-        }
-
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style type="text/css">
+      @page {
+        size: letter;
+      }
+      @media screen {
         .page {
-            width: 8.5in;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: top;
+          margin: auto;
+          margin-top: 30px;
+          border: 5px solid black;
+          box-shadow: 6px 6px 20px;
         }
-
-        .left-half {
-            color: #eee;
-            background-color: #46413b;
-            text-shadow: 0 0.5px 0.5px #333;
-            flex: 1;
-        }
-
-        .right-half {
-            background-color: #eee;
-            color: #111;
-            text-shadow: 0 0.5px 0.5px #aaa;
-            flex: 2;
-            padding: 30px 30px 150px 30px;
-        }
-
-        .m1{
-            margin-top: 10px;
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-            flex-direction: row;
-            font-size: 11pt;
-            font-weight: bold;
-        }
-
-        .d1 {
-            margin: 50px auto 0 auto;
-            display: flex; 
-            align-items: top;
-            justify-content: center; 
-            flex-direction: row;
-            text-align: left;
-        }
-        .d2 {
-            width: 100%;
-            margin-left: 20px;
-            display: flex; 
-            align-items: left;
-            justify-content: left; 
-            flex-direction: column;
-        }
-        .d3 {
-            display: inline-block;
-        }
-        .imgicon {
-            margin: 0; 
-            height: 50px; 
-            width: 50px;
-        }
-        .s1 {
-            font-size: 11pt;
-            font-weight: bold;
-        }
-        .s2 {
-            font-size: 11px;
-            float: right;
-        }
-        .d4 {
-            font-size: 11pt;
-        }
-        .d5 {
-            margin-top: 15px;
-            font-size: 11pt;
-        }
-        </style>
-    </head>
-    <body>
-        <div class="page">
-            <div class="left-half">
-                <h1 style="margin: 100px 0px 0px 0px;">DUSTIN</h1>
-                <h1 style="margin: 0px 0px 0px 0px;">MARKS</h1>
-                <img  style="margin: 20px 0px 50px 0px;" src="dustin.png" width="150px"/>
-                <h2>MOBILE DEVELOPER</h2>
-                <h2 style="margin: 2px 0px 0px 0px; font-size: 18pt;">•</h2>
-                <h2 >EMBEDDED ENGINEER</h2>
-                <hr />
-                <h2>EXPERTISE</h2>
-                <span class="material-icons" style="margin: 10px 0 10px 0">check</span>
-                <h2>ARCHITECTURE</h2>
-                <h2>LEADING</h2>
-                <h2>AGILE</h2>
-                <h2>TESTING</h2>
-                <hr />
-                <h2>TECH SKILLS</h2>
-                <span class="material-icons" style="margin: 10px 0 10px 0">settings</span>
-                <h2>C# / C++</h2>
-                <h2>KOTLIN</h2>
-                <h2>XAMARIN</h2>
-                <h2>GIT</h2>
-                <hr />
-                <h2>801.557.6342</h2>
-                <h2>dustinmarks07@gmail.com</h2>
-            </div>
-            <div class="right-half">
-                <div class="m1">
-                    <span class="material-icons" style="font-size: 50px; margin-right: 20px;">work</span>
-                    <span>EXPERINCE</span>
-                </div>
-                <div class="d1">
-                    <img src="drivertech.png" class="imgicon" />
-                    <div class="d2">
-                        <div class="d3">
-                            <span class="s1">MOBILE APPS TEAM LEAD</span><span class="s2">August 2017 - Present</span>
-                        </div>
-                        <div class="d4">DriverTech LLC</div>
-                        <div class="d5">Leading DriverTech’s mobile team in developing a suite of mobile apps and custom android devices for long haul trucking.</div>
-                        <div class="d5">Our team created an IoT style android tablet that is replacing existing in cab hardware on over 60,000 long haul trucks. This device provides a variety of necessary services for fleet management such as hours of service, document scanning, messaging and workflow. Created API using GRPC for third party vendors such as mapping and customer applications for the tablet.</div>
-                        <div class="d5">Created DTMobile which is a companion application used on the truck driver’s smart phone or tablet. This allows the driver to be away from the Truck and perform document scanning, messaging, and vehicle inspections. Built using Xamarin and is available on both apple app store and google play.</div>
-                        <div class="d5">Devoloped ASP/SignalR web services backend for communication with all DriverTech mobile applications. Utilizing MSSQL databases and Firebase for driver messaging and notifications.</div>
-                    </div>
-                </div>
-                <div class="d1">
-                    <img src="teem.jpg" class="imgicon" />
-                    <div class="d2">
-                        <div class="d3">
-                            <span class="s1">SENIOR SOFTWARE ENGINEER</span><span class="s2">October 2016 - August 2017</span>
-                        </div>
-                        <div class="d4">Teem Technologies</div>
-                        <div class="d5">Created both react native and C# microsoft outlook plugins. Plugins would manage meeting resources and allow you to search, book, and see availability within a corporation.</div>
-                        <div class="d5">Heavy focus on UI design, long running app lifecycles, and interacting with web services. Collaborated with product and design to ensure consistent delivery of high quality product.</div>
-                    </div>
-                </div>
-                <div class="d1">
-                    <img src="drivertech.png" class="imgicon" />
-                    <div class="d2">
-                        <div class="d3">
-                            <span class="s1">SENIOR EMBEDDED SOFTWARE ENGINEER</span><span class="s2">June 2006 - October 2016</span>
-                        </div>
-                        <div class="d4">DriverTech LLC</div>
-                        <div class="d5">Senior member of the embedded development team responsible for a full vehicle fleet management solution. Software written in visual C++ and C# provides mangers and drivers with live GPS updates, mapping, engine data, and hours of service.</div>
-                        <div class="d5">Interfacing with hardware protocols, GPS, TCP, UDP, CAN, 1939, 1708, Serial, Modems (GSM, CDMA, HSDPA), WLAN, Orbcomm Satellites.</div>
-                        <div class="d5" style="page-break-before: always;">Designing and maintaining large relational SQL databases. Extensive experience in web services, stored procedures, clustered indexes, triggers, foreign keys, identities, and joins.</div>
-                        <div class="d5">Responsible for designing and servicing all Production/RMA software written in dot net. This includes all hardware test software, product and repairs tracking, and several ASP web sites and web services to manage the process.</div>
-                        <div class="d5">Collaborate closely with other team members to plan, design and develop robust solutions using Jira and Agile methodology.</div>
-                    </div>
-                </div>
-                <div class="m1" style="margin-top: 50px;">
-                    <span class="material-icons" style="font-size: 50px; margin-right: 20px;">school</span>
-                    <span>EDUCATION</span>
-                </div>
-                <div class="d1">
-                    <img src="uofu.png" class="imgicon" />
-                    <div class="d2">
-                        <div class="d3">
-                            <span class="s1">Bachelor of Science, Computer Science</span><span class="s2">Class of 2010</span>
-                        </div>
-                        <div class="d4">University of Utah</div>
-                    </div>
-                </div>
-            </div>
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #666;
+        font-family: "Arial"; 
+        text-align: center;
+        letter-spacing: 0.04em;
+      }
+      .page {
+        width: 8.5in;
+        display: flex;
+        flex-direction: column;
+      }
+      .content {
+        color: #111;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: top;
+      }
+      .left-half {
+        margin: 0;
+        padding: 0 15px 0 0;
+        text-align: right;
+        background-color: #f4f4f4;
+        gap: 0;
+        flex: 1;
+      }
+      .right-half {
+        background-color: #FFFFFF;
+        flex: 2;
+        padding: 0px 30px 150px 30px;
+      }
+      h3 {
+        margin: 30px 0 5px 0;
+        font-size: 14pt;
+      }
+      h4 {
+        margin: 5px 0 0 0;
+        font-size: 11pt;
+        font-weight: normal;
+      }
+      .imgicon {
+        margin: 0; 
+        height: 50px; 
+        width: 50px;
+      }
+      .d1 {
+        margin: 50px auto 0 auto;
+        display: flex; 
+        align-items: top;
+        justify-content: center; 
+        flex-direction: row;
+        text-align: left;
+      }
+      .d2 {
+        width: 100%;
+        margin-left: 20px;
+        display: flex; 
+        align-items: left;
+        justify-content: left; 
+        flex-direction: column;
+      }
+      .d3 {
+        font-size: 12pt;
+        font-weight: bold;
+      }
+      .d4 {
+        margin-top: 3px;
+        display: inline-block;
+      }
+      .s1 {
+        font-size: 11pt;
+        font-weight: bold;
+      }
+      .s2 {
+        font-size: 11px;
+        float: right;
+      }
+      ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+      }
+      li {
+        margin: 8px 0 0 10px;
+        padding: 0;
+        font-size: 11pt;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div style="background-color: #333; color: white; width: 100%;">
+        <div style="margin-top: 20px; font-size: 30pt; letter-spacing:5px; font-weight: bold;">
+          DUSTIN MARKS
         </div>
-    </body>
+        <div style="margin-top: 10px; margin-bottom: 20px; font-size: 16pt; font-style: italic;">
+          SOFTWARE ENGINEER
+        </div>
+        <div class="content">
+          <div class="left-half">
+            <h3>CONTACT</h3>
+            <h4>DustinMarks07@gmail.com</h4>
+            <h4>(801) 557-6342</h4>
+            <h4>Draper, UT</h4>
+            <h4><a href="https://www.linkedin.com/in/marksdustin/">LinkedIn</a></h4>
+
+            <h3>EDUCATION</h3>
+            <h4>Bachelor of Science</h4>
+            <h4>Computer Science</h4>
+            <h4>University of Utah</h4>
+            <h4>Class 2010</h4>
+            <h4>Salt Lake City, UT</h4>
+
+            <h3>SKILLS</h3>
+            <h4>Ethereum (Solidity)</h4>
+            <h4>Hardhat, Truffle, Openzeppelin</h4>
+            <h4>Typescript (NodeJS, ReactJS)</h4>
+            <h4>C#, C++, ASP</h4>
+            <h4>MSSQL, PostgreSQL</h4>
+          </div>
+          <div class="right-half">
+            <div class="d1">
+              <img src="giddy.svg" class="imgicon" />
+              <div class="d2">
+                <div class="d3">BLOCKCHAIN / WEB ARCHITECT</div>
+                <div class="d4">
+                  <span class="s1">Giddy</span><span class="s2">August 2021 - August 2023</span>
+                </div>
+                <ul>
+                  <li>Designed and implemented DeFi smart contracts in a streamlined single-step approach, managing assets exceeding $30 million.</li>
+                  <li>Led the architecture of auto-compounding yield aggregators, enabling user deposits/withdrawals across key DeFi platforms: Gamma, AAVE, Uniswap, Quickswap, Sushi, Curve, and Balancer. <a href="https://polygonscan.com/address/0xf42f5273c04494a44b6614e37e0010d952395acd#code">CodeLink</a></li>
+                  <li>Developed the Giddy token streaming DApp, <a href="https://coinlaunch.giddy.co/">https://coinlaunch.giddy.co/</a>. Successfully streamed over a billion tokens without security incidents, propelling the token's value to $0.30 within the first few weeks post-launch. At its peak, managed and safeguarded over $50 million in customer crypto assets.</li>
+                  <li>Ensured the robustness and safety of deployed contracts by proactively mitigating potential vulnerabilities. Collaboratively cross-audited contracts with other leading crypto companies, further reinforcing contract security and trustworthiness.</li>
+                  <li>Possess a comprehensive understanding of crypto transactions, proficient in signing transactions using Web3 and Ethers, with a keen focus on gas optimization and transaction efficiency.</li>
+                  <li>Expertise in implementing upgradable contracts, enforcing security through timelocks, utilizing Gnosis safes, and leveraging tools like Defender for enhanced contract management and protection.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="d1">
+              <img src="drivertech.png" class="imgicon" />
+              <div class="d2">
+                <div class="d3">MOBILE APPS TEAM LEAD</div>
+                <div class="d4">
+                  <span class="s1">DriverTech LLC</span><span class="s2">August 2017 - August 2021</span>
+                </div>
+                <ul>
+                  <li>Leading DriverTech’s mobile team in developing a suite of mobile apps and custom android devices for long haul trucking.</li>
+                  <li>Our team created an IoT style android tablet that is replacing existing in cab hardware on over 60,000 long haul trucks. This device provides a variety of necessary services for fleet management such as hours of service, document scanning, messaging and workflow. Created API using GRPC for third party vendors such as mapping and customer applications for the tablet.</li>
+                  <li>Created DTMobile which is a companion application used on the truck driver’s smart phone or tablet. This allows the driver to be away from the Truck and perform document scanning, messaging, and vehicle inspections. Built using Xamarin and is available on both apple app store and google play.</li>
+                  <li>Devoloped ASP/SignalR web services backend for communication with all DriverTech mobile applications. Utilizing MSSQL databases and Firebase for driver messaging and notifications.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="d1">
+              <img src="teem.jpg" class="imgicon" />
+              <div class="d2">
+                <div class="d3">SENIOR SOFTWARE ENGINEER</div>
+                <div class="d4">
+                  <span class="s1">Teem Technologies</span><span class="s2">October 2016 - August 2017</span>
+                </div>
+                <ul>
+                  <li>Created both react native and C# microsoft outlook plugins. Plugins would manage meeting resources and allow you to search, book, and see availability within a corporation.</li>
+                  <li>Heavy focus on UI design, long running app lifecycles, and interacting with web services. Collaborated with product and design to ensure consistent delivery of high quality product.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="d1">
+              <img src="drivertech.png" class="imgicon" />
+              <div class="d2">
+                <div class="d3">SENIOR EMBEDDED SOFTWARE ENGINEER</div>
+                <div class="d4">
+                  <span class="s1">DriverTech LLC</span><span class="s2">June 2006 - October 2016</span>
+                </div>
+                <ul>
+                  <li>Senior member of the embedded development team responsible for a full vehicle fleet management solution. Software written in visual C++ and C# provides mangers and drivers with live GPS updates, mapping, engine data, and hours of service.</li>
+                  <li>Interfacing with hardware protocols, GPS, TCP, UDP, CAN, 1939, 1708, Serial, Modems (GSM, CDMA, HSDPA), WLAN, Orbcomm Satellites.</li>
+                  <li>Designing and maintaining large relational SQL databases. Extensive experience in web services, stored procedures, clustered indexes, triggers, foreign keys, identities, and joins.</li>
+                  <li>Responsible for designing and servicing all Production/RMA software written in dot net. This includes all hardware test software, product and repairs tracking, and several ASP web sites and web services to manage the process.</li>
+                  <li>Collaborate closely with other team members to plan, design and develop robust solutions using Jira and Agile methodology.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
